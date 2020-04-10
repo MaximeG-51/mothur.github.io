@@ -86,6 +86,11 @@ The current parameter can be used to input the output file from
 get.current. This allows the commands to work together to keep track of
 current files between instances of mothur.
 
+    mothur > set.current(current=saved_current_files.summary)
+    
+    Current files saved by mothur:
+    fasta=my_sequences.fasta
+
 ## Revisions
 
 -   1.33.0 - Bug Fix: setting processors option to 1, if not set.
